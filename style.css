@@ -17,7 +17,7 @@
     margin: 70px;
 }
 img {
-    width: 80%;
+    width: 85%;
     margin-left: 25px; 
 }
 .header1 {
@@ -48,3 +48,63 @@ img {
     margin: 20px 0;
 }
 /* end header section */
+/* Start dream section */
+.dream_section {
+    display: flex;
+    background: url("images/dream-bg.png") no-repeat;
+    background-position: right;
+    margin-bottom: 100px; 
+}
+/* end dream section */
+/* Start Experiences section */
+.experiences {
+    background: url("images/exp-bg.png") no-repeat;
+    background-position: left;
+    margin-bottom: 150px; 
+}
+.ex_s {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.flex {
+    display: flex;
+}
+.card {
+    box-shadow: 5px 7px 40px grey;
+    width: 42%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-bottom: 90px;
+}
+#full_stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, red);
+    border-image-slice: 1;
+}
+#baby_deve {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.card h1 {
+    font-size: 40px;
+    margin: 30px 0;
+}
+.card h3 {
+    color: orange;
+    margin: 20px 0;
+}
+.card p {
+    color: rgb(131, 113, 113);
+    text-align: justify; 
+    padding: 0 10px;
+}
+/* end Experiences section */
+/* start footer section */
+footer p {
+    color: rgb(131, 113, 113);
+    text-align: center;
+    padding: 20px;
+}
+/* end footer section */
