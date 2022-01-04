@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* start header section */
+.header_section {
+    display: flex;
+    background: url("images/top-banner.png") no-repeat;
+}
+.half_width {
+    width: 50%;
+}
+.aline {
+    margin: 70px;
+}
+img {
+    width: 80%;
+    margin-left: 25px; 
+}
+.header1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.header2 {
+    font-size: 40px;
+    margin: 30px 0;
+}
+.header2 span {
+    color: orange;
+}
+
+.title {
+    font-weight: bold;
+}
+.headerpara {
+    color: rgb(131, 113, 113);
+    text-align: justify;
+    margin: 20px 0;
+}
+/* end header section */
