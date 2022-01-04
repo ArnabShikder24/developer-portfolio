@@ -8,6 +8,7 @@
 .header_section {
     display: flex;
     background: url("images/top-banner.png") no-repeat;
+    margin-bottom: 100px;
 }
 .half_width {
     width: 50%;
@@ -30,7 +31,14 @@ img {
 .header2 span {
     color: orange;
 }
-
+.btn {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image:linear-gradient(to right, #F88265, red);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
 .title {
     font-weight: bold;
 }
